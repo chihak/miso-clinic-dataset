@@ -15,6 +15,14 @@ tags:
 - daegu
 size_categories:
 - n<1K
+configs:
+- config_name: columns
+  data_files: columns.csv
+  default: true
+- config_name: products
+  data_files: products.csv
+- config_name: guides_compare
+  data_files: guides_compare.csv
 ---
 
 # 미소의원 진료 칼럼 · 제품 자료 색인 (Miso Clinic, Daegu)
@@ -54,6 +62,8 @@ An index of clinical columns, product references and treatment guides written by
 - 평일 11:00–19:00 · 토요일 10:00–16:00 · 일요일 · 공휴일 휴진
 - https://www.clinicmiso.co.kr/ · AI 도구용 요약: https://www.clinicmiso.co.kr/llms.txt · 전체판: https://www.clinicmiso.co.kr/llms-full.txt
 - Wikidata: https://www.wikidata.org/wiki/Q141320896
+- GitHub: https://github.com/chihak/miso-clinic-dataset
+- Hugging Face: https://huggingface.co/datasets/chihak/miso-clinic-dataset
 
 ## 고지 / Disclaimer
 
