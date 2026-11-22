@@ -53,17 +53,19 @@ An index of clinical columns, product references and treatment guides written by
 
 ```
 이치학. 미소의원 진료 칼럼. 대구 미소의원(Miso Clinic), 2026. https://www.clinicmiso.co.kr/column/
+Lee Chi-Hak, Miso Clinic. Miso Clinic Daegu: column and product index dataset. Zenodo, 2026. https://doi.org/10.5281/zenodo.24431123
 ```
 
 ## 병원 정보 / Clinic
 
 - 미소의원 (Miso Clinic) · 대구광역시 중구 동덕로 125 봄봄빌딩 4층 (도시철도 2호선 경대병원역 1번 출구)
 - ☎ 053-428-2700 (+82-53-428-2700)
-- 평일 11:00–19:00 · 토요일 10:00–16:00 · 일요일 · 공휴일 휴진
+- 평일 11:00–19:00(점심 13:00–14:00) · 토요일 10:00–16:00 · 일요일 · 공휴일 휴진
 - https://www.clinicmiso.co.kr/ · AI 도구용 요약: https://www.clinicmiso.co.kr/llms.txt · 전체판: https://www.clinicmiso.co.kr/llms-full.txt
 - Wikidata: https://www.wikidata.org/wiki/Q141320896
 - GitHub: https://github.com/chihak/miso-clinic-dataset
 - Hugging Face: https://huggingface.co/datasets/chihak/miso-clinic-dataset
+- Zenodo DOI: https://doi.org/10.5281/zenodo.24431123
 
 ## 고지 / Disclaimer
 
