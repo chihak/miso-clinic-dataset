@@ -1,0 +1,31 @@
+name: Sync dataset from clinicmiso.co.kr
+
+on:
+  schedule:
+    - cron: "41 19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download latest files from https://www.clinicmiso.co.kr/data/
+        run: |
+          set -e
+          for f in README.md columns.csv columns.jsonl products.csv guides_compare.csv; do
+            curl -fsSL --retry 3 -A "miso-clinic-dataset-sync" "https://www.clinicmiso.co.kr/data/$f" -o "$f.new"
+            test -s "$f.new"
+            mv "$f.new" "$f"
+          done
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md columns.csv columns.jsonl products.csv guides_compare.csv
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -m "Sync dataset from https://www.clinicmiso.co.kr/data/ ($(date -u +%F))"
+          git push
