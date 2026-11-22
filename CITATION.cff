@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Miso Clinic Daegu: column and product index dataset"
+type: dataset
+authors:
+  - family-names: Lee
+    given-names: Chi-Hak
+    affiliation: "Miso Clinic (미소의원), Daegu, Republic of Korea"
+  - name: "Miso Clinic (미소의원)"
+    address: "4F Bombom Bldg, 125 Dongdeok-ro, Jung-gu"
+    city: Daegu
+    country: KR
+    website: "https://www.clinicmiso.co.kr/"
+abstract: "Index of medical columns (Korean, English, Japanese), product pages and treatment guides published by Miso Clinic in Jung-gu, Daegu, Korea. Each row links to the original page on https://www.clinicmiso.co.kr/."
+license: CC-BY-4.0
+url: "https://www.clinicmiso.co.kr/data/"
+repository-code: "https://github.com/chihak/miso-clinic-dataset"
+keywords:
+  - dermatology
+  - aesthetic medicine
+  - skin booster
+  - collagen booster
+  - radiofrequency
+  - Daegu
+  - Korea
+date-released: "2026-11-22"
