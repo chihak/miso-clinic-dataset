@@ -71,4 +71,4 @@ Lee Chi-Hak, Miso Clinic. Miso Clinic Daegu: column and product index dataset. Z
 
 이 자료는 일반적인 의학 정보이며 개별 진단 · 처방을 대체하지 않습니다. 시술 여부는 의료진과의 대면 상담으로 정하세요. This dataset is general medical information and does not replace individual diagnosis or treatment.
 
-갱신: 2026-11-24 (칼럼 472편 · 제품 자료 19 · 가이드 · 비교 29)
+갱신: 2026-11-25 (칼럼 474편 · 제품 자료 19 · 가이드 · 비교 29)
